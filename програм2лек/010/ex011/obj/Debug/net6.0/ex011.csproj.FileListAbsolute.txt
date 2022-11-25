@@ -1,0 +1,16 @@
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\bin\Debug\net6.0\ex011.exe
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\bin\Debug\net6.0\ex011.deps.json
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\bin\Debug\net6.0\ex011.runtimeconfig.json
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\bin\Debug\net6.0\ex011.dll
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\bin\Debug\net6.0\ref\ex011.dll
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\bin\Debug\net6.0\ex011.pdb
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\obj\Debug\net6.0\ex011.GlobalUsings.g.cs
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\obj\Debug\net6.0\ex011.csproj.AssemblyReference.cache
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\obj\Debug\net6.0\ex011.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\obj\Debug\net6.0\ex011.AssemblyInfoInputs.cache
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\obj\Debug\net6.0\ex011.AssemblyInfo.cs
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\obj\Debug\net6.0\ex011.csproj.CoreCompileInputs.cache
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\obj\Debug\net6.0\ex011.dll
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\obj\Debug\net6.0\ref\ex011.dll
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\obj\Debug\net6.0\ex011.pdb
+C:\Users\Ксения\Desktop\програм2лек\010\ex011\obj\Debug\net6.0\ex011.genruntimeconfig.cache
