@@ -27,6 +27,7 @@ Console.Write($"The biggest digit is  {res}");
 85 -> 8
 */
 /*
+
 int randomNum = new Random().Next(10,100); // генератор двузначного числа9не включает 100)
 
 int Digits ()
@@ -42,8 +43,8 @@ int Digits ()
    else return dec;
 }
 Console.Write("The biggest digit is"  + Digits());
-*/
 
+*/
 // Напишите программу , которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
 
 /*void Cratnost(int num, int a, int b)
@@ -90,26 +91,24 @@ Console.WriteLine($"Your new number is {Del()}");
 782 -> 8
 918 -> 1
 */
-void Cratnost(int abc, int b, int c)
+/*void Cratnost(int abc)
 {
-    if ( abc / 10 == a && abc / 10 == b )
-        Console.WriteLine($"Your number {abc} is multiple of {a} and {b} ");
+    if ( abc > 99 && abc < 1000 )
+    {
+    
+       int count = abc / 10 % 10;
+    Console.WriteLine($"Your number {count} ");
     }
-    else Console.WriteLine($"Your number {abc} is not multiple of {a} and {b}");
+        
+    else Console.WriteLine($"Your number {abc} not num ");
 }
 
 Console.Write("Enter your number: ");
-int user_num = Convert.ToInt32(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Enter your divider1: ");
-int divider1 = Convert.ToInt32(Console.ReadLine());
+Cratnost(num);
 
-Console.Write("Enter your divider2: ");
-int divider2 = Convert.ToInt32(Console.ReadLine());
-
-Cratnost(user_num, divider1, divider2);
-
-
+*/
 
 /*Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет. (без пеобразования типов)
 
@@ -119,6 +118,46 @@ Cratnost(user_num, divider1, divider2);
 
 32679 -> 6
 */
+
+Console.WriteLine("Введите число: ");
+int Num = Convert.ToInt32(Console.ReadLine());
+
+void Digits (int number)
+{
+    
+   int ed = Num % 10; 
+   int dec = Num / 10;
+
+
+   if (number < 100)
+   {   
+    Console.WriteLine("Третьей цифры нет"); 
+   }
+
+
+   
+   if (number > 100 && number < 1000)
+   {   
+    Console.WriteLine($"Третья цифрa {number % 10} "); 
+
+   }
+
+  if (number > 1000 )
+   {   
+    while (true)
+    {
+        n
+    }
+    Console.WriteLine($"Третья цифрa {number % 10} "); 
+
+   }
+   else Console.WriteLine($"Третья цифрa {number % 10 / 10} ");  ;
+}
+Console.Write("Enter your number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+ Digits(num);
+
+
 
 /*Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
