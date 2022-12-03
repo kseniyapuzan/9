@@ -118,45 +118,37 @@ Cratnost(num);
 
 32679 -> 6
 */
-
+/*
 Console.WriteLine("Введите число: ");
 int Num = Convert.ToInt32(Console.ReadLine());
 
 void Digits (int number)
 {
-    
-   int ed = Num % 10; 
-   int dec = Num / 10;
 
 
    if (number < 100)
    {   
     Console.WriteLine("Третьей цифры нет"); 
    }
+   return;
 
-
-   
-   if (number > 100 && number < 1000)
+     if (number > 100 && number < 1000)
    {   
     Console.WriteLine($"Третья цифрa {number % 10} "); 
 
    }
-
-  if (number > 1000 )
-   {   
-    while (true)
+   
+    while (number > 1000)
     {
-        n
+       number = number / 10;
     }
     Console.WriteLine($"Третья цифрa {number % 10} "); 
+    }
 
-   }
-   else Console.WriteLine($"Третья цифрa {number % 10 / 10} ");  ;
-}
 Console.Write("Enter your number: ");
 int num = Convert.ToInt32(Console.ReadLine());
  Digits(num);
-
+*/
 
 
 /*Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
@@ -164,4 +156,18 @@ int num = Convert.ToInt32(Console.ReadLine());
 6 -> да
 7 -> да
 1 -> нет
+*/
+/*
+Console.Write("Enter the number the day of the week: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine( 
+    number == 1 ? "NO " 
+    :number == 2 ? "Thursday"
+    :number == 3 ? "Wednesday"
+    :number == 4 ? "Thursday"
+    :number == 5 ? "Friday"
+    :number == 6 ? "Saturday is a weekend! "
+    :number == 7 ? "Sunday is a weekend!"
+    :"Not a day of the week! ");
 */
